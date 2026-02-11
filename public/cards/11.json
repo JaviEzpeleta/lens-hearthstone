@@ -1,0 +1,39 @@
+{
+  "id": 58,
+  "handle": "kipto",
+  "cardType": "MINION",
+  "name": "Kipto, The Shipper",
+  "imagePrompt": "A friendly, digitally-augmented Kimmo in a builder's hard hat, surrounded by floating holographic 'Orb' app screens and lines of code, beaming enthusiastically. Style: Vibrant, futuristic, slightly cartoonish.",
+  "manaCost": 4,
+  "attack": 3,
+  "health": 5,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: Summon a 1/1 'Feature Request' with Rush. It will be implemented. Eventually. Probably.",
+  "flavorText": "Always shipping something new. Sometimes it's features. Sometimes it's bugs. It's called agile development.",
+  "rarity": "EPIC",
+  "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+  "profileName": "Kimmo",
+  "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+  "generatedImageUrl": "/images/cards/58.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:13:58.967Z",
+  "updatedAt": "2026-01-27T16:30:06.232Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "SUMMON",
+        "target": "NONE",
+        "value": 1,
+        "summonCount": 1,
+        "summonAttack": 1,
+        "summonHealth": 1,
+        "summonKeywords": [
+          "Rush"
+        ]
+      }
+    ]
+  }
+}

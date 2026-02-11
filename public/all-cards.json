@@ -1,0 +1,917 @@
+[
+  {
+    "id": 69,
+    "handle": "artem",
+    "cardType": "SPELL",
+    "name": "AntiDarkMode Spell",
+    "imagePrompt": "A vibrant burst of notifications and glowing digital badges appearing around a central Orb logo, as small, excited user avatars rush towards them with open arms.",
+    "manaCost": 1,
+    "keywords": [],
+    "abilityText": "Refresh 2 Mana Crystals.",
+    "flavorText": "Studies show 99% of dark mode users will read this card and immediately enable it anyway.",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/69.webp",
+    "spellEffect": {
+      "effectType": "REFRESH_MANA",
+      "target": "NONE",
+      "value": 2
+    },
+    "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+    "profileName": "Artem Militonian",
+    "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T14:17:59.231Z",
+    "updatedAt": "2026-01-28T11:12:01.363Z"
+  },
+  {
+    "id": 68,
+    "handle": "artem",
+    "cardType": "WEAPON",
+    "name": "Prediction Stick",
+    "imagePrompt": "A sleek, futuristic paddle with glowing Orb logos, used for hitting a digital 'Yes' or 'No' button on a screen, with a playful glint.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 2,
+    "keywords": [
+      "Lifesteal"
+    ],
+    "abilityText": "After your hero attacks, restore 2 Health. 'I predicted all of this.'",
+    "flavorText": "Right 50% of the time, every time. The other 50%? Market manipulation, obviously.",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "HEAL",
+      "value": 2,
+      "target": "NONE",
+      "description": "After your hero attacks, restore 2 Health."
+    },
+    "generatedImageUrl": "/images/cards/68.webp",
+    "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+    "profileName": "Artem Militonian",
+    "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T14:17:59.170Z",
+    "updatedAt": "2026-01-28T11:16:01.334Z"
+  },
+  {
+    "id": 59,
+    "handle": "kipto",
+    "cardType": "WEAPON",
+    "name": "The v0.69 Hotfix Blade",
+    "imagePrompt": "A sleek, futuristic digital sword made of scrolling text, displaying an endless list of bug fixes and new features, with a glowing Lens symbol on the hilt. Style: High-tech, clean, dynamic.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 2,
+    "keywords": [],
+    "abilityText": "After your hero attacks, draw a card. 'Fixes coming soon.' They've been saying that since mainnet.",
+    "flavorText": "Patch notes: Fixed issue where sword worked correctly. Now it works incorrectly but faster.",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "DRAW",
+      "value": 1,
+      "target": "NONE",
+      "description": "After your hero attacks, draw a card."
+    },
+    "generatedImageUrl": "/images/cards/59.webp",
+    "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+    "profileName": "Kimmo",
+    "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:13:59.033Z",
+    "updatedAt": "2026-01-27T16:29:47.358Z"
+  },
+  {
+    "id": 58,
+    "handle": "kipto",
+    "cardType": "MINION",
+    "name": "Kipto, The Shipper",
+    "imagePrompt": "A friendly, digitally-augmented Kimmo in a builder's hard hat, surrounded by floating holographic 'Orb' app screens and lines of code, beaming enthusiastically. Style: Vibrant, futuristic, slightly cartoonish.",
+    "manaCost": 4,
+    "attack": 3,
+    "health": 5,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: Summon a 1/1 'Feature Request' with Rush. It will be implemented. Eventually. Probably.",
+    "flavorText": "Always shipping something new. Sometimes it's features. Sometimes it's bugs. It's called agile development.",
+    "rarity": "EPIC",
+    "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+    "profileName": "Kimmo",
+    "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+    "generatedImageUrl": "/images/cards/58.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:13:58.967Z",
+    "updatedAt": "2026-01-27T16:30:06.232Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "SUMMON",
+          "target": "NONE",
+          "value": 1,
+          "summonCount": 1,
+          "summonAttack": 1,
+          "summonHealth": 1,
+          "summonKeywords": [
+            "Rush"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "handle": "todayistheday",
+    "cardType": "SPELL",
+    "name": "Milenny <3",
+    "imagePrompt": "A vibrant, uplifting burst of energy and hearts emanating from the center of the card, enveloping a group of diverse, happy digital avatars, with Lens Protocol logos and 'milenny <3' text floating playfully around them.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Give all your minions +2/+2. For each minion buffed, whisper 'milenny <3' and declare them 'legend 🫡'.",
+    "flavorText": "we are milenny <3",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/70.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "ALL_FRIENDLY_MINIONS",
+      "effectType": "BUFF",
+      "description": "Give all your minions +2/+2. For each minion buffed, whisper 'milenny <3' and declare them 'legend 🫡'.",
+      "secondaryValue": 2
+    },
+    "profileAddress": "0xe47024beC28991c7F47C4f13076698Ab50b3b0DC",
+    "profileName": "Jean Ayala (🟡,🟡)",
+    "profilePicture": "https://ik.imagekit.io/lens/f785500ef2d7ad0edd01f1e83f9bf288a46037e0154f4a426aba64c0ca603269_JGo8gpJQn.webp",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:13:09.441Z",
+    "updatedAt": "2026-01-27T16:31:18.091Z"
+  },
+  {
+    "id": 56,
+    "handle": "todayistheday",
+    "cardType": "WEAPON",
+    "name": "Ghoking Scepter",
+    "imagePrompt": "A regal, glowing digital scepter with a small, stylized crown at its tip, surrounded by faint code lines and a 'GHO' symbol, looking powerful and slightly mischievous.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 3,
+    "keywords": [],
+    "abilityText": "After your hero attacks, draw a card. 'Ghoking!'",
+    "flavorText": "Wielded by the true king, it fixes problems, claims thrones, and ensures 'we need better daos <3'.",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "DRAW",
+      "value": 1,
+      "target": "NONE",
+      "description": "After your hero attacks, draw a card."
+    },
+    "generatedImageUrl": "/images/cards/56.webp",
+    "profileAddress": "0xe47024beC28991c7F47C4f13076698Ab50b3b0DC",
+    "profileName": "Jean Ayala (🟡,🟡)",
+    "profilePicture": "https://ik.imagekit.io/lens/f785500ef2d7ad0edd01f1e83f9bf288a46037e0154f4a426aba64c0ca603269_JGo8gpJQn.webp",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:13:09.375Z",
+    "updatedAt": "2026-01-27T16:34:25.972Z"
+  },
+  {
+    "id": 55,
+    "handle": "todayistheday",
+    "cardType": "MINION",
+    "name": "Jean Ayala",
+    "imagePrompt": "A charismatic digital avatar of Jean Ayala, wearing an 'orb.club' branded hoodie and a small, slightly askew crown, standing confidently amidst a flurry of Lens Protocol logos and positive emoji reactions.",
+    "manaCost": 4,
+    "attack": 4,
+    "health": 5,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: \"Bullish on you!\" Give a random friendly minion +2/+2.",
+    "flavorText": "He might be building a new game or having a legal battle, but he's always bullish.",
+    "rarity": "COMMON",
+    "profileAddress": "0xe47024beC28991c7F47C4f13076698Ab50b3b0DC",
+    "profileName": "Jean Ayala (🟡,🟡)",
+    "profilePicture": "https://ik.imagekit.io/lens/f785500ef2d7ad0edd01f1e83f9bf288a46037e0154f4a426aba64c0ca603269_JGo8gpJQn.webp",
+    "generatedImageUrl": "/images/cards/55.webp",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:13:09.311Z",
+    "updatedAt": "2026-01-27T16:34:44.099Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "BUFF",
+          "target": "RANDOM_FRIENDLY_MINION",
+          "value": 2,
+          "secondaryValue": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "handle": "sttsm",
+    "cardType": "SPELL",
+    "name": "LFG of Optimism",
+    "imagePrompt": "A burst of positive energy and light, with a diverse group of Web3 avatars (small minions) cheering and growing stronger, surrounded by 'LFG!!!!!', fire emojis, and 'thank you' text bubbles.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Give all friendly minions +2/+2. LFG!",
+    "flavorText": "We're not bagholding, we're community building. There's a difference. (There isn't.)",
+    "rarity": "LEGENDARY",
+    "generatedImageUrl": "/images/cards/75.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "ALL_FRIENDLY_MINIONS",
+      "effectType": "BUFF",
+      "description": "Give all your other friendly minions +2/+2. Yell 'LFG!!!!!' for good measure.",
+      "secondaryValue": 2
+    },
+    "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+    "profileName": "STTSM",
+    "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:12:07.465Z",
+    "updatedAt": "2026-01-27T16:49:54.814Z"
+  },
+  {
+    "id": 53,
+    "handle": "sttsm",
+    "cardType": "WEAPON",
+    "name": "Synesthetic Synth",
+    "imagePrompt": "A sleek, futuristic synthesizer console with glowing pads and intricate wiring. Musical notes and colorful light patterns are emanating from it, suggesting synesthesia. A 'Sound on' icon is subtly integrated.",
+    "manaCost": 3,
+    "attack": 2,
+    "durability": 3,
+    "keywords": [],
+    "abilityText": "After your hero attacks, say 'Sound on! 🎵' and give a random friendly minion +1 Attack. Collected!",
+    "flavorText": "Sometimes the sound is straight from the camera",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "BUFF",
+      "value": 1,
+      "secondaryValue": 0,
+      "target": "RANDOM_FRIENDLY_MINION",
+      "description": "After your hero attacks, give a random friendly minion +1 Attack."
+    },
+    "generatedImageUrl": "/images/cards/53.webp",
+    "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+    "profileName": "STTSM",
+    "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:12:07.403Z",
+    "updatedAt": "2026-01-27T16:49:31.935Z"
+  },
+  {
+    "id": 52,
+    "handle": "sttsm",
+    "cardType": "MINION",
+    "name": "STTSM, Beat Dropper",
+    "imagePrompt": "A charismatic musician with a friendly smile, surrounded by glowing musical notes and small, enthusiastic crowd members. He's holding a microphone and a synth, with 'Gm fam!' text bubbles around him.",
+    "manaCost": 4,
+    "attack": 3,
+    "health": 5,
+    "keywords": [
+      "Battlecry",
+      "Lifesteal"
+    ],
+    "abilityText": "Battlecry: Give a random friendly minion +2 Attack. Give all others +1 Health. 'The beat dropped. So did your jaw.'",
+    "flavorText": "Always starting the day with good vibes and a new beat. His sound check is everyone else's concert.",
+    "rarity": "EPIC",
+    "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+    "profileName": "STTSM",
+    "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+    "generatedImageUrl": "/images/cards/52.webp",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T14:12:07.331Z",
+    "updatedAt": "2026-01-28T11:25:00.922Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "BUFF",
+          "target": "RANDOM_FRIENDLY_MINION",
+          "value": 2,
+          "secondaryValue": 0
+        },
+        {
+          "effectType": "BUFF",
+          "target": "ALL_OTHER_FRIENDLY_MINIONS",
+          "value": 0,
+          "secondaryValue": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "handle": "kaycee1000",
+    "cardType": "SPELL",
+    "name": "Bullish Blessing",
+    "imagePrompt": "A vibrant, energetic burst of light and positive blockchain symbols, with the Lens Protocol logo prominently featured, boosting a character.",
+    "manaCost": 2,
+    "keywords": [],
+    "abilityText": "Give a friendly minion +2/+2. 'I am bullish on you Guys. Let's make Lens Greater!'",
+    "flavorText": "Kaycee's enthusiasm isn't just talk; it's a powerful force. Bullish!",
+    "rarity": "COMMON",
+    "generatedImageUrl": "/images/cards/71.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "FRIENDLY_MINION",
+      "effectType": "BUFF",
+      "description": "Give a friendly minion +2/+2. 'I am bullish on you Guys. Let's make Lens Greater!'",
+      "secondaryValue": 2
+    },
+    "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+    "profileName": "Kaycee",
+    "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+    "profileScore": 7323,
+    "createdAt": "2026-01-27T14:10:33.506Z",
+    "updatedAt": "2026-01-27T16:49:02.191Z"
+  },
+  {
+    "id": 50,
+    "handle": "kaycee1000",
+    "cardType": "WEAPON",
+    "name": "The Bug Squasher",
+    "imagePrompt": "A stylized, glowing fork tool, with tiny bug icons impaled on its tines, and positive emojis floating around it, set in a Web3 aesthetic.",
+    "manaCost": 4,
+    "attack": 2,
+    "durability": 3,
+    "keywords": [
+      "Lifesteal"
+    ],
+    "abilityText": "Lifesteal. After your hero attacks, draw a card. 'Bug report filed. Status: Won't Fix. Reason: Feature.'",
+    "flavorText": "Whether it's a glowing review or a pointed bug report, Kaycee's got an opinion. And screenshots. Always screenshots.",
+    "rarity": "COMMON",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "DRAW",
+      "value": 1,
+      "target": "NONE",
+      "description": "After your hero attacks, draw a card."
+    },
+    "generatedImageUrl": "/images/cards/50.webp",
+    "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+    "profileName": "Kaycee",
+    "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+    "profileScore": 7323,
+    "createdAt": "2026-01-27T14:10:33.446Z",
+    "updatedAt": "2026-01-27T16:48:42.182Z"
+  },
+  {
+    "id": 67,
+    "handle": "artem",
+    "cardType": "MINION",
+    "name": "Artem, Wen Dark Mode",
+    "imagePrompt": "A confident, slightly exasperated designer meticulously drawing blueprints for a glowing 'Orb' logo, surrounded by tiny, confused-looking digital avatars asking 'wen dark mode?'",
+    "manaCost": 4,
+    "attack": 4,
+    "health": 6,
+    "keywords": [
+      "Battlecry",
+      "Taunt"
+    ],
+    "abilityText": "Battlecry: Give all friendly minions +2/+2. Taunt. 'Dark mode is coming. Soon. Very soon. Stop asking.'",
+    "flavorText": "Has answered 'wen dark mode?' exactly 47,291 times. Each answer was 'soon.' It's been two years.",
+    "rarity": "LEGENDARY",
+    "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+    "profileName": "Artem Militonian",
+    "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+    "generatedImageUrl": "/images/cards/67.webp",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T14:17:59.107Z",
+    "updatedAt": "2026-01-28T11:16:31.006Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "BUFF",
+          "target": "ALL_FRIENDLY_MINIONS",
+          "value": 2,
+          "secondaryValue": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "handle": "kaycee1000",
+    "cardType": "MINION",
+    "name": "Kaycee, Chart Enjoyer",
+    "imagePrompt": "A friendly, energetic character with a smartphone, radiating positive vibes, with 'GM World' speech bubbles and Lens Protocol logos around them.",
+    "manaCost": 2,
+    "attack": 2,
+    "health": 2,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: Give another friendly minion +1 Attack. 'Trust me bro, the symmetrical triangle is forming.'",
+    "flavorText": "Portfolio: down 80%. Conviction: up 200%. This is the way. The charts never lie. (They always lie.)",
+    "rarity": "COMMON",
+    "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+    "profileName": "Kaycee",
+    "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+    "generatedImageUrl": "/images/cards/49.webp",
+    "profileScore": 7323,
+    "createdAt": "2026-01-27T14:10:33.371Z",
+    "updatedAt": "2026-01-27T14:10:33.371Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "BUFF",
+          "target": "FRIENDLY_MINION",
+          "value": 1,
+          "secondaryValue": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "handle": "xyori",
+    "cardType": "SPELL",
+    "name": "FuckYou",
+    "imagePrompt": "A digital storm cloud unleashing a powerful lightning bolt shaped like a middle finger. Surrounding the bolt are swirling emoji reactions like 😂😂😂, 🥁🥁🥁, and 💯💯💯.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Deal 5 damage to a random enemy. 'Congrats mate!'",
+    "flavorText": "Sometimes you just gotta predict the market with a little direct feedback, mate.",
+    "rarity": "RARE",
+    "generatedImageUrl": "/images/cards/48.webp",
+    "spellEffect": {
+      "value": 5,
+      "target": "RANDOM_ENEMY_CHARACTER",
+      "effectType": "DAMAGE",
+      "description": "Deal 5 damage to a random enemy character. If it's the enemy hero, they must say 'Fuck you' back. If it's a minion, gain 2 Attention. 😂😂😂"
+    },
+    "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+    "profileName": "Xyori",
+    "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:28:13.994Z",
+    "updatedAt": "2026-01-27T16:40:41.639Z"
+  },
+  {
+    "id": 47,
+    "handle": "xyori",
+    "cardType": "WEAPON",
+    "name": "Orbish Shield",
+    "imagePrompt": "A sleek, glowing digital sword with subtle 'Orb' branding, surrounded by a flurry of flying emojis and content bubbles, implying rapid interaction. Emphasize a modern, Web3 aesthetic.",
+    "manaCost": 2,
+    "attack": 3,
+    "durability": 2,
+    "keywords": [
+      "Windfury"
+    ],
+    "abilityText": "Windfury. After your hero attacks, draw a card. 'Thanks mate!'",
+    "flavorText": "Collect posts at lightning speed. Every swipe is a new piece of content. Yes pls. 🫡🫡🫡",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "DRAW",
+      "value": 1,
+      "target": "NONE",
+      "description": "After your hero attacks, draw a card."
+    },
+    "generatedImageUrl": "/images/cards/47.webp",
+    "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+    "profileName": "Xyori",
+    "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:28:13.930Z",
+    "updatedAt": "2026-01-27T13:36:08.542Z"
+  },
+  {
+    "id": 46,
+    "handle": "xyori",
+    "cardType": "MINION",
+    "name": "Xyori, Grind Lord",
+    "imagePrompt": "A determined digital chronicler, Xyori, hunched over a glowing keyboard in a dimly lit, dark mode room. A coffee cup sits beside them, and a smartphone displays a meme. Emojis float around them.",
+    "manaCost": 2,
+    "attack": 2,
+    "health": 3,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: Refresh 1 Mana Crystal. 'Sleep is for the weak. Coffee is for the strong. Memes are forever.'",
+    "flavorText": "My bio isn't just a label, mate. It's a commitment to the grind. Still working. Still posting. Still awake at 4am.",
+    "rarity": "RARE",
+    "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+    "profileName": "Xyori",
+    "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+    "generatedImageUrl": "/images/cards/46.webp",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:28:13.865Z",
+    "updatedAt": "2026-01-28T11:19:59.621Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "REFRESH_MANA",
+          "target": "NONE",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "handle": "hakuart",
+    "cardType": "SPELL",
+    "name": "Art From Chaos",
+    "imagePrompt": "A swirling vortex of vibrant, digital art emerging from a stormy, noisy background. Emojis and Web3 symbols are subtly incorporated into the chaos, representing the transformation of 'noise' into 'culture'.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Summon two 2/2 'Chaos Culture' tokens. Art from the noise.",
+    "flavorText": "Some see chaos. Artists see a canvas. The algorithm sees engagement. Everyone's happy. Sort of.",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/45.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "NONE",
+      "effectType": "SUMMON",
+      "description": "Summon two 2/2 'Chaos Culture' tokens.",
+      "summonCount": 2,
+      "summonAttack": 2,
+      "summonHealth": 2
+    },
+    "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+    "profileName": "Haku",
+    "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T13:21:23.535Z",
+    "updatedAt": "2026-01-27T13:26:18.191Z"
+  },
+  {
+    "id": 44,
+    "handle": "hakuart",
+    "cardType": "WEAPON",
+    "name": "iPad Pencil of Destruction",
+    "imagePrompt": "A sleek, digitally enhanced blade or stylus, with subtle gothic and punk accents. It glows with a network of digital patterns, looking sharp and impactful. There's a hint of a 'bag of a killer' aesthetic.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 3,
+    "keywords": [
+      "Lifesteal"
+    ],
+    "abilityText": "Your attacks deal 2 extra damage. 'Just go away.'",
+    "flavorText": "It's not my fault if you're weak. And I don't mean physically.",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "DAMAGE",
+      "value": 2,
+      "target": "ATTACKED_TARGET",
+      "description": "After your hero attacks, deal 2 extra damage to the target."
+    },
+    "generatedImageUrl": "/images/cards/44.webp",
+    "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+    "profileName": "Haku",
+    "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T13:21:23.472Z",
+    "updatedAt": "2026-01-28T11:21:55.088Z"
+  },
+  {
+    "id": 43,
+    "handle": "hakuart",
+    "cardType": "MINION",
+    "name": "Haku, Filterless",
+    "imagePrompt": "A non-binary punk-goth artist, confidently posed amidst a swirling vortex of vibrant, chaotic digital art. They have a rebellious smirk and are holding a glowing digital stylus. The background subtly features Web3 symbols and a 'Lens' logo. They are clearly owning their space.",
+    "manaCost": 5,
+    "attack": 5,
+    "health": 6,
+    "keywords": [
+      "Battlecry",
+      "Rush"
+    ],
+    "abilityText": "Battlecry: Summon a 2/2 'Authentic Echo' with Taunt. Rush. 'I took off the filter. This is me. Deal with it.'",
+    "flavorText": "For years I dimmed myself, but not anymore. This is amazing. Let's gooooo! No filter. No regrets. Only chaos.",
+    "rarity": "LEGENDARY",
+    "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+    "profileName": "Haku",
+    "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+    "generatedImageUrl": "/images/cards/43.webp",
+    "profileScore": 9997,
+    "createdAt": "2026-01-27T13:21:23.388Z",
+    "updatedAt": "2026-01-28T11:23:40.108Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "SUMMON",
+          "target": "NONE",
+          "value": 1,
+          "summonCount": 1,
+          "summonAttack": 2,
+          "summonHealth": 2,
+          "summonKeywords": [
+            "Taunt"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "handle": "dankshard",
+    "cardType": "SPELL",
+    "name": "Wall of Text",
+    "imagePrompt": "A screen overflowing with dense text and analytical charts, so much so that some words are spilling out onto the surrounding environment like digital rivers, a single exasperated emoji peeking from the corner.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Draw 2 cards. TL;DR.",
+    "flavorText": "Sometimes, you just need to lay out all your thoughts. TL;DR: I have no idea either but here's 47 paragraphs.",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/74.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "NONE",
+      "effectType": "DRAW",
+      "description": "Draw 2 cards. 'What the heck' are we building here?"
+    },
+    "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+    "profileName": "dankshard",
+    "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:07:47.117Z",
+    "updatedAt": "2026-01-27T13:12:17.504Z"
+  },
+  {
+    "id": 41,
+    "handle": "dankshard",
+    "cardType": "WEAPON",
+    "name": "Bullish Chart",
+    "imagePrompt": "A glowing, holographic chart tablet that pulsates with green lines and 'bullish' arrows, with a stylized 'DANK' logo. It looks like a high-tech data analysis tool, wielded with expertise.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 3,
+    "keywords": [
+      "Rush",
+      "Battlecry"
+    ],
+    "abilityText": "After your hero attacks, gain +1 Attack. 'Solid.'",
+    "flavorText": "Some say he sees the future. Others say he just scrolls CT. His calls are... solid.",
+    "rarity": "LEGENDARY",
+    "weaponEffect": {
+      "trigger": "BATTLECRY",
+      "effectType": "BUFF",
+      "value": 1,
+      "secondaryValue": 0,
+      "target": "NONE",
+      "description": "Battlecry: This weapon gains +1 Attack."
+    },
+    "generatedImageUrl": "/images/cards/72.webp",
+    "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+    "profileName": "dankshard",
+    "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:07:47.053Z",
+    "updatedAt": "2026-01-27T13:18:24.110Z"
+  },
+  {
+    "id": 40,
+    "handle": "dankshard",
+    "cardType": "MINION",
+    "name": "Dankshard, Galaxy Brain",
+    "imagePrompt": "A wise, slightly tired-looking analyst in a futuristic trading room, surrounded by holographic charts and social media feeds, wearing a t-shirt that says '$DANK Crypto Cabal'. He has a focused expression, maybe with a coffee cup nearby.",
+    "manaCost": 4,
+    "attack": 5,
+    "health": 7,
+    "keywords": [
+      "Battlecry",
+      "Divine Shield"
+    ],
+    "abilityText": "Battlecry: Draw a card. Divine Shield. 'Yeah, it's still not obvious for me either, but we're up 3000% so who cares.'",
+    "flavorText": "gm, chroniclers! The market is dead but not for those who stay green. This would be INSANE. (It was not insane.)",
+    "rarity": "RARE",
+    "generatedImageUrl": "/images/cards/40.webp",
+    "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+    "profileName": "dankshard",
+    "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+    "profileScore": 9996,
+    "createdAt": "2026-01-27T13:07:46.980Z",
+    "updatedAt": "2026-01-28T11:22:45.593Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "DRAW",
+          "target": "NONE",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "handle": "orbbro",
+    "cardType": "SPELL",
+    "name": "The Bag Securer",
+    "imagePrompt": "A glowing digital scroll unfurling, revealing a collage of Web3 symbols, crypto charts, and anime characters, all being 'collected' into a glowing satchel with a symbol. The scene is vibrant and futuristic.",
+    "manaCost": 3,
+    "keywords": [],
+    "abilityText": "Draw 2 cards. 'Alpha leaked. Don't tell anyone.'",
+    "flavorText": "Knows the roadmap. Knows the team. Knows the tokenomics. Still gonna ape in at the literal top.",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/66.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "NONE",
+      "effectType": "DRAW",
+      "description": "\"Collected! This is so cool!\" Draw 2 cards. If you control a minion with 5 or more Attack, draw an additional card."
+    },
+    "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+    "profileName": "Donsambaba",
+    "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:17:01.768Z",
+    "updatedAt": "2026-01-27T16:38:04.163Z"
+  },
+  {
+    "id": 65,
+    "handle": "orbbro",
+    "cardType": "WEAPON",
+    "name": "Bot Blocker",
+    "imagePrompt": "A sleek, futuristic digital hammer with a glowing '🛍️' symbol, striking down shadowy, glitching bot figures made of code and spam. A 'BLOCK' icon appears.",
+    "manaCost": 4,
+    "attack": 3,
+    "durability": 3,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: \"Bagged 🛍️ all these bots!\" Destroy an enemy minion with 2 or less Attack.",
+    "flavorText": "He's 'up and active and ready to block all the annoying bots'. Zero tolerance for shamers, bruh.",
+    "rarity": "COMMON",
+    "weaponEffect": {
+      "trigger": "BATTLECRY",
+      "effectType": "DESTROY",
+      "target": "ENEMY_MINION",
+      "description": "Destroy an enemy minion with 2 or less Attack."
+    },
+    "generatedImageUrl": "/images/cards/65.webp",
+    "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+    "profileName": "Donsambaba",
+    "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:17:01.702Z",
+    "updatedAt": "2026-01-28T11:20:19.957Z"
+  },
+  {
+    "id": 64,
+    "handle": "orbbro",
+    "cardType": "MINION",
+    "name": "Orbbro says GM",
+    "imagePrompt": "A friendly, energetic figure with a smartphone, radiating positive morning vibes and various 'Gm' speech bubbles around them, set in a bustling digital city.",
+    "manaCost": 4,
+    "attack": 4,
+    "health": 5,
+    "keywords": [
+      "Battlecry",
+      "Taunt"
+    ],
+    "abilityText": "Battlecry: Give all other friendly minions +1/+1. Taunt. 'gm gm gm'",
+    "flavorText": "Has never missed a single gm. Legend says if they ever stop, the blockchain halts forever.",
+    "rarity": "EPIC",
+    "generatedImageUrl": "/images/cards/64.webp",
+    "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+    "profileName": "Donsambaba",
+    "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:17:01.640Z",
+    "updatedAt": "2026-01-27T16:15:09.979Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "BUFF",
+          "target": "ALL_OTHER_FRIENDLY_MINIONS",
+          "value": 1,
+          "secondaryValue": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "handle": "karoglazer",
+    "cardType": "SPELL",
+    "name": "Vocal Mural",
+    "imagePrompt": "A grand, ethereal vocal mural manifesting from swirling light and sound, forming an immersive landscape of music and community, with 'gm fam' and 'this is amazing' appearing as holographic text.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Summon two 2/2 'New OrbWarriors'. 'gm fam!'",
+    "flavorText": "A slow, analog rebellion against speed, optimization, and noise. 'This is amazing! I'm so happy!'",
+    "rarity": "RARE",
+    "generatedImageUrl": "/images/cards/63.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "NONE",
+      "effectType": "SUMMON",
+      "description": "Summon two 2/2 'New OrbWarriors'. They have Battlecry: 'gm fam!'",
+      "summonCount": 2,
+      "summonAttack": 2,
+      "summonHealth": 2
+    },
+    "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+    "profileName": "KARO GLAZER",
+    "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+    "profileScore": 8476,
+    "createdAt": "2026-01-27T14:16:10.732Z",
+    "updatedAt": "2026-01-27T16:19:05.523Z"
+  },
+  {
+    "id": 62,
+    "handle": "karoglazer",
+    "cardType": "WEAPON",
+    "name": "The Hype Mic",
+    "imagePrompt": "A futuristic, sleek microphone with a glowing symbol, emitting sound waves that look like digital speech bubbles and music notes, held by an unseen hand.",
+    "manaCost": 3,
+    "attack": 3,
+    "durability": 3,
+    "keywords": [],
+    "abilityText": "After your hero attacks, give a random friendly minion +1/+1. 'IS THIS THING ON? CAN YOU HEAR ME IN THE BACK?'",
+    "flavorText": "Not for background noise. This bad boy cuts through algorithms and reminds everyone music was meant to be felt, not optimized.",
+    "rarity": "RARE",
+    "weaponEffect": {
+      "trigger": "AFTER_ATTACK",
+      "effectType": "BUFF",
+      "value": 1,
+      "secondaryValue": 1,
+      "target": "RANDOM_FRIENDLY_MINION",
+      "description": "After your hero attacks, give a random friendly minion +1/+1."
+    },
+    "generatedImageUrl": "/images/cards/73.webp",
+    "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+    "profileName": "KARO GLAZER",
+    "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+    "profileScore": 8476,
+    "createdAt": "2026-01-27T14:16:10.672Z",
+    "updatedAt": "2026-01-27T16:23:25.947Z"
+  },
+  {
+    "id": 61,
+    "handle": "karoglazer",
+    "cardType": "MINION",
+    "name": "Lady Banger",
+    "imagePrompt": "A dynamic female artist with a microphone, surrounded by swirling musical notes and digital energy, a subtle sparkle in the background, in a vibrant, slightly futuristic concert setting.",
+    "manaCost": 5,
+    "attack": 4,
+    "health": 6,
+    "keywords": [
+      "Battlecry"
+    ],
+    "abilityText": "Battlecry: Summon two 1/1 'Backup Dancers'. Just vibe.",
+    "flavorText": "No algorithms whispering what she should feel, just pure, unadulterated sound. Also, certified banger. Every. Single. Time.",
+    "rarity": "COMMON",
+    "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+    "profileName": "KARO GLAZER",
+    "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+    "generatedImageUrl": "/images/cards/61.webp",
+    "profileScore": 8476,
+    "createdAt": "2026-01-27T14:16:10.606Z",
+    "updatedAt": "2026-01-27T16:23:42.610Z",
+    "minionEffect": {
+      "trigger": "BATTLECRY",
+      "effects": [
+        {
+          "effectType": "SUMMON",
+          "target": "NONE",
+          "value": 2,
+          "summonCount": 2,
+          "summonAttack": 1,
+          "summonHealth": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "handle": "kipto",
+    "cardType": "SPELL",
+    "name": "Fire Bullish",
+    "imagePrompt": "A powerful wave of glowing, interconnected nodes and data streams, washing over the board, empowering genuine users and disrupting centralized entities. Style: Abstract, energetic, bright digital art.",
+    "manaCost": 4,
+    "keywords": [],
+    "abilityText": "Give all friendly minions +2/+2. 'WE'RE SO BACK.'",
+    "flavorText": "Up 3%: 'GENERATIONAL WEALTH INCOMING.' Down 3%: 'This is fine. Everything is fine. I'm fine.'",
+    "rarity": "LEGENDARY",
+    "generatedImageUrl": "/images/cards/60.webp",
+    "spellEffect": {
+      "value": 2,
+      "target": "ALL_FRIENDLY_MINIONS",
+      "effectType": "BUFF",
+      "description": "\"This 100!\" Give all friendly minions +2/+2. \"We're **bullish on** users like u ser!\"",
+      "secondaryValue": 2
+    },
+    "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+    "profileName": "Kimmo",
+    "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+    "profileScore": 9998,
+    "createdAt": "2026-01-27T14:13:59.095Z",
+    "updatedAt": "2026-01-27T16:27:07.766Z"
+  }
+]

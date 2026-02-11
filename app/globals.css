@@ -1,26 +1,1078 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+
+  /* Hearthstone gold */
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+
+  /* Hearthstone mana blue */
+  --color-mana: var(--mana);
+
+  /* Hearthstone health red */
+  --color-health: var(--health);
+
+  /* Hearthstone attack orange */
+  --color-attack: var(--attack);
+
+  /* Fonts */
+  --font-serif: var(--font-cinzel), "Cinzel", ui-serif, Georgia, serif;
+  --font-display: var(--font-cinzel-decorative), "Cinzel Decorative", ui-serif, Georgia, serif;
+  --font-medieval: var(--font-medieval-sharp, var(--font-medieval)), "MedievalSharp", cursive;
+  --font-sans: var(--font-cinzel), "Cinzel", ui-serif, Georgia, serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ============================================
+   LIGHT MODE — Parchment & Ink
+   ============================================ */
+:root {
+  --radius: 0.625rem;
+
+  --background: #f5ead6;
+  --foreground: #2a1a0e;
+
+  --card: #efe0c9;
+  --card-foreground: #2a1a0e;
+
+  --popover: #efe0c9;
+  --popover-foreground: #2a1a0e;
+
+  --primary: #8b6914;
+  --primary-foreground: #fdf6e3;
+
+  --secondary: #e0d0b5;
+  --secondary-foreground: #3d2815;
+
+  --muted: #e6d5bc;
+  --muted-foreground: #7a6548;
+
+  --accent: #d4b96a;
+  --accent-foreground: #2a1a0e;
+
+  --destructive: #b33030;
+
+  --border: #c9b38a;
+  --input: #d4c4a0;
+  --ring: #8b6914;
+
+  --gold: #c9a033;
+  --gold-light: #e8c84a;
+  --gold-dark: #8b6914;
+  --mana: #2b6cb0;
+  --health: #c53030;
+  --attack: #dd6b20;
+
+  --chart-1: #c9a033;
+  --chart-2: #2b6cb0;
+  --chart-3: #c53030;
+  --chart-4: #dd6b20;
+  --chart-5: #38a169;
+
+  --sidebar: #efe0c9;
+  --sidebar-foreground: #2a1a0e;
+  --sidebar-primary: #8b6914;
+  --sidebar-primary-foreground: #fdf6e3;
+  --sidebar-accent: #d4b96a;
+  --sidebar-accent-foreground: #2a1a0e;
+  --sidebar-border: #c9b38a;
+  --sidebar-ring: #8b6914;
+}
+
+/* ============================================
+   DARK MODE — Tavern at Night (Hearthstone)
+   ============================================ */
+.dark {
+  --background: #1a0f08;
+  --foreground: #f0e6d3;
+
+  --card: #2a1c10;
+  --card-foreground: #f0e6d3;
+
+  --popover: #2a1c10;
+  --popover-foreground: #f0e6d3;
+
+  --primary: #c9a033;
+  --primary-foreground: #1a0f08;
+
+  --secondary: #3d2b1a;
+  --secondary-foreground: #f0e6d3;
+
+  --muted: #3d2b1a;
+  --muted-foreground: #a08b6e;
+
+  --accent: #4a3222;
+  --accent-foreground: #f0e6d3;
+
+  --destructive: #cc3333;
+
+  --border: rgba(201, 160, 51, 0.2);
+  --input: rgba(201, 160, 51, 0.15);
+  --ring: #c9a033;
+
+  --gold: #c9a033;
+  --gold-light: #e8c84a;
+  --gold-dark: #8b6914;
+  --mana: #4299e1;
+  --health: #fc5c5c;
+  --attack: #ed8936;
+
+  --chart-1: #c9a033;
+  --chart-2: #4299e1;
+  --chart-3: #fc5c5c;
+  --chart-4: #ed8936;
+  --chart-5: #48bb78;
+
+  --sidebar: #231509;
+  --sidebar-foreground: #f0e6d3;
+  --sidebar-primary: #c9a033;
+  --sidebar-primary-foreground: #1a0f08;
+  --sidebar-accent: #4a3222;
+  --sidebar-accent-foreground: #f0e6d3;
+  --sidebar-border: rgba(201, 160, 51, 0.2);
+  --sidebar-ring: #c9a033;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-medieval;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ============================================
+   GAME ANIMATIONS
+   ============================================ */
+
+/* Bounce up and fade (for damage numbers) */
+@keyframes bounce-up-fade {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-50%, -80%) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -150%) scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-bounce-up-fade {
+  animation: bounce-up-fade 1s ease-out forwards;
+}
+
+/* Card play animation */
+@keyframes card-play {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(0.8) translateY(-60px);
+    opacity: 0;
+  }
+}
+
+.animate-card-play {
+  animation: card-play 0.4s ease-out forwards;
+}
+
+/* Attack lunge animation */
+@keyframes attack-lunge {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-attack-lunge {
+  animation: attack-lunge 0.5s ease-in-out;
+}
+
+/* Damage shake */
+@keyframes damage-shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 60% {
+    transform: translateX(-5px);
+  }
+  40%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-damage-shake {
+  animation: damage-shake 0.3s ease-in-out;
+}
+
+/* Death fade */
+@keyframes death-fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5) rotateZ(10deg);
+    opacity: 0;
+  }
+}
+
+.animate-death-fade {
+  animation: death-fade 0.4s ease-in forwards;
+}
+
+/* Buff glow */
+@keyframes buff-glow {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+  }
+}
+
+.animate-buff-glow {
+  animation: buff-glow 0.3s ease-in-out;
+}
+
+/* Summon pop */
+@keyframes summon-pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-summon-pop {
+  animation: summon-pop 0.4s ease-out;
+}
+
+/* Turn transition */
+@keyframes turn-transition {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.animate-turn-transition {
+  animation: turn-transition 0.6s ease-in-out;
+}
+
+/* Pulse glow for valid targets */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.8);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 1s ease-in-out infinite;
+}
+
+/* Modal appear animation */
+@keyframes modal-appear {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-modal-appear {
+  animation: modal-appear 0.2s ease-out forwards;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ============================================
+   CARD CAROUSEL ANIMATIONS
+   ============================================ */
+
+/* Card mystical enter - emerge from golden mist */
+@keyframes card-mystical-enter {
+  0% {
+    opacity: 0;
+    transform: scale(0.85) translateY(30px);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
+}
+
+.animate-card-mystical-enter {
+  animation: card-mystical-enter 0.7s ease-out forwards;
+}
+
+/* Card mystical exit - fade into mist */
+@keyframes card-mystical-exit {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.92);
+    filter: blur(6px);
+  }
+}
+
+.animate-card-mystical-exit {
+  animation: card-mystical-exit 0.5s ease-in forwards;
+}
+
+/* Rarity glow pulse - pulsating aura around the card */
+@keyframes rarity-glow-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-rarity-glow-pulse {
+  animation: rarity-glow-pulse 2s ease-in-out infinite;
+}
+
+/* Floating sparkle particles */
+@keyframes sparkle-drift {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-120px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-sparkle-drift {
+  animation: sparkle-drift 3s ease-in-out infinite;
+}
+
+/* ============================================
+   TAVERN BATTLEGROUND THEME
+   ============================================ */
+
+/* Parchment scroll unfurl animation for turn banner */
+@keyframes scroll-unfurl {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.animate-scroll-unfurl {
+  animation: scroll-unfurl 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Mana gem pulse */
+@keyframes mana-pulse {
+  0%, 100% {
+    filter: brightness(1) drop-shadow(0 0 2px rgba(66, 153, 225, 0.5));
+  }
+  50% {
+    filter: brightness(1.2) drop-shadow(0 0 6px rgba(66, 153, 225, 0.8));
+  }
+}
+
+.animate-mana-pulse {
+  animation: mana-pulse 2s ease-in-out infinite;
+}
+
+/* Card fan hover lift */
+@keyframes card-lift {
+  0% {
+    transform: var(--fan-transform) translateY(0);
+  }
+  100% {
+    transform: var(--fan-transform) translateY(-16px) scale(1.08);
+  }
+}
+
+/* Subtle floating for decorative elements */
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 3s ease-in-out infinite;
+}
+
+/* Wood texture pattern (SVG inline) */
+.bg-wood-texture {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 90, 43, 0.15), rgba(101, 67, 33, 0.1));
+  background-size: 20px 20px, 10px 10px, 100% 100%;
+}
+
+/* Leather texture */
+.bg-leather-texture {
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(139, 90, 43, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(139, 90, 43, 0.08) 0%, transparent 50%),
+    linear-gradient(to bottom, rgba(45, 30, 15, 0.95), rgba(30, 20, 10, 0.98));
+}
+
+/* Vignette overlay */
+.bg-vignette {
+  background: radial-gradient(ellipse at center, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+/* Golden ornament border */
+.border-ornament {
+  border-image: linear-gradient(
+    135deg,
+    #c9a033 0%,
+    #e8c84a 25%,
+    #c9a033 50%,
+    #8b6914 75%,
+    #c9a033 100%
+  ) 1;
+}
+
+/* Parchment background for banners */
+.bg-parchment {
+  background: linear-gradient(
+    to right,
+    #3d2815 0%,
+    #5a3d1a 5%,
+    #6b4a22 15%,
+    #7a5528 50%,
+    #6b4a22 85%,
+    #5a3d1a 95%,
+    #3d2815 100%
+  );
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.3),
+    inset 0 -2px 4px rgba(0,0,0,0.3),
+    0 4px 8px rgba(0,0,0,0.4);
+}
+
+/* Gem shape clip path */
+.clip-gem {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* End turn button fantasy style */
+.btn-fantasy {
+  background: linear-gradient(
+    to bottom,
+    #c9a033 0%,
+    #a07d20 50%,
+    #8b6914 100%
+  );
+  border: 2px solid #e8c84a;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    inset 0 -2px 4px rgba(0,0,0,0.3),
+    0 2px 8px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.btn-fantasy:active {
+  background: linear-gradient(
+    to bottom,
+    #8b6914 0%,
+    #a07d20 50%,
+    #c9a033 100%
+  );
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.4),
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.btn-fantasy:disabled {
+  background: linear-gradient(
+    to bottom,
+    #4a4a4a 0%,
+    #3a3a3a 50%,
+    #2a2a2a 100%
+  );
+  border-color: #555;
+  color: #666;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* Board slot decorative pattern */
+.board-slot-pattern {
+  background:
+    radial-gradient(circle at center, rgba(201, 160, 51, 0.1) 0%, transparent 70%);
+  border: 1px dashed rgba(201, 160, 51, 0.2);
+}
+
+/* ============================================
+   TARGETING SYSTEM - Visual Improvements
+   ============================================ */
+
+/* Cursor diana/bullseye para modo targeting */
+.cursor-targeting {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23ffffff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23ef4444' stroke-width='1' stroke-dasharray='4 4'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23ffffff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23ef4444' stroke-width='1'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23ef4444'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23ffffff'/%3E%3Cline x1='16' y1='0' x2='16' y2='6' stroke='%23ffffff' stroke-width='2'/%3E%3Cline x1='16' y1='26' x2='16' y2='32' stroke='%23ffffff' stroke-width='2'/%3E%3Cline x1='0' y1='16' x2='6' y2='16' stroke='%23ffffff' stroke-width='2'/%3E%3Cline x1='26' y1='16' x2='32' y2='16' stroke='%23ffffff' stroke-width='2'/%3E%3C/svg%3E") 16 16, crosshair;
+}
+
+/* Efecto spotlight para targets válidos */
+.spotlight-target {
+  position: relative;
+  z-index: 40;
+  box-shadow:
+    0 0 20px 8px rgba(239, 68, 68, 0.4),
+    0 0 40px 16px rgba(239, 68, 68, 0.2);
+  filter: brightness(1.2) contrast(1.05);
+}
+
+/* Animación de pulso para spotlight */
+@keyframes spotlight-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px 8px rgba(239, 68, 68, 0.4), 0 0 40px 16px rgba(239, 68, 68, 0.2);
+    filter: brightness(1.2);
+  }
+  50% {
+    box-shadow: 0 0 30px 12px rgba(239, 68, 68, 0.6), 0 0 60px 24px rgba(239, 68, 68, 0.3);
+    filter: brightness(1.3);
+  }
+}
+
+.animate-spotlight-pulse {
+  animation: spotlight-pulse 1.5s ease-in-out infinite;
+}
+
+/* Overlay oscuro para targeting */
+.targeting-overlay-dark {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(1px);
+}
+
+/* ============================================
+   MUSIC PLAYER ANIMATIONS
+   ============================================ */
+
+/* Slow rune spin for decorative elements */
+@keyframes rune-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rune-spin {
+  animation: rune-spin 4s linear infinite;
+}
+
+/* Breathing glow for playing state */
+@keyframes music-pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-music-pulse {
+  animation: music-pulse 2s ease-in-out infinite;
+}
+
+/* Play button orb glow */
+@keyframes orb-glow {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(201, 160, 51, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(201, 160, 51, 0.7), 0 0 30px rgba(201, 160, 51, 0.3);
+  }
+}
+
+.animate-orb-glow {
+  animation: orb-glow 1.5s ease-in-out infinite;
+}
+
+/* Progress bar shimmer effect */
+@keyframes progress-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.animate-progress-shimmer {
+  animation: progress-shimmer 2s ease-in-out infinite;
+}
+
+/* ============================================
+   HERO SECTION ANIMATIONS
+   ============================================ */
+
+/* Golden title glow effect */
+.hero-title-glow {
+  text-shadow:
+    0 0 10px rgba(232, 200, 74, 0.8),
+    0 0 20px rgba(201, 160, 51, 0.6),
+    0 0 30px rgba(201, 160, 51, 0.4),
+    0 0 40px rgba(139, 105, 20, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Parchment/wood texture overlay */
+.hero-texture-overlay {
+  background-image:
+    radial-gradient(ellipse at 30% 20%, rgba(201, 160, 51, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(201, 160, 51, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+/* Vignette overlay */
+.hero-vignette {
+  background: radial-gradient(
+    ellipse at center,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+/* Rarity card glows */
+.hero-card-legendary {
+  box-shadow:
+    0 0 15px rgba(249, 115, 22, 0.7),
+    0 0 30px rgba(249, 115, 22, 0.4),
+    inset 0 0 20px rgba(249, 115, 22, 0.1);
+  border: 3px solid #f97316;
+}
+
+.hero-card-epic {
+  box-shadow:
+    0 0 15px rgba(168, 85, 247, 0.7),
+    0 0 30px rgba(168, 85, 247, 0.4),
+    inset 0 0 20px rgba(168, 85, 247, 0.1);
+  border: 3px solid #a855f7;
+}
+
+.hero-card-rare {
+  box-shadow:
+    0 0 15px rgba(66, 153, 225, 0.7),
+    0 0 30px rgba(66, 153, 225, 0.4),
+    inset 0 0 20px rgba(66, 153, 225, 0.1);
+  border: 3px solid #4299e1;
+}
+
+.hero-card-common {
+  box-shadow:
+    0 0 10px rgba(160, 160, 160, 0.5),
+    0 0 20px rgba(160, 160, 160, 0.3);
+  border: 3px solid #9ca3af;
+}
+
+/* Floating ember particles */
+@keyframes hero-ember-float {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-200px) translateX(30px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.hero-ember {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f97316 0%, #c9a033 50%, transparent 100%);
+  animation: hero-ember-float 4s ease-in-out infinite;
+}
+
+/* Sparkle particles */
+@keyframes hero-sparkle-twinkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hero-sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #e8c84a;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #e8c84a, 0 0 12px #c9a033;
+  animation: hero-sparkle-twinkle 2s ease-in-out infinite;
+}
+
+/* Golden pulse for decorative border */
+@keyframes hero-golden-pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.hero-border-glow {
+  box-shadow:
+    inset 0 0 60px rgba(201, 160, 51, 0.15),
+    inset 0 0 120px rgba(201, 160, 51, 0.08);
+  animation: hero-golden-pulse 3s ease-in-out infinite;
+}
+
+/* Ornamental flourish styling */
+.hero-flourish {
+  color: #c9a033;
+  text-shadow: 0 0 10px rgba(201, 160, 51, 0.5);
+}
+
+/* Card fan positions */
+.hero-card-pos-1 { transform: rotate(-12deg) translateY(15px); z-index: 1; }
+.hero-card-pos-2 { transform: rotate(-6deg) translateY(5px); z-index: 2; }
+.hero-card-pos-3 { transform: rotate(0deg) translateY(0); z-index: 3; }
+.hero-card-pos-4 { transform: rotate(6deg) translateY(5px); z-index: 2; }
+.hero-card-pos-5 { transform: rotate(12deg) translateY(15px); z-index: 1; }
+
+/* Card hover effect */
+.hero-card {
+  transition: transform 0.3s ease, z-index 0.1s;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.6));
+}
+
+.hero-card:hover {
+  transform: translateY(-20px) scale(1.05) !important;
+  z-index: 10 !important;
+}
+
+.hello {
+  border: 1px solid red;
+}
+
+/* ============================================
+   VOID PORTAL 404 PAGE ANIMATIONS
+   ============================================ */
+
+/* Swirling void vortex effect */
+@keyframes void-swirl {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-void-swirl {
+  animation: void-swirl 20s linear infinite;
+}
+
+.animate-void-swirl-reverse {
+  animation: void-swirl 15s linear infinite reverse;
+}
+
+.animate-void-swirl-slow {
+  animation: void-swirl 30s linear infinite;
+}
+
+/* Card fragment drifting toward portal center */
+@keyframes card-fragment-drift {
+  0% {
+    opacity: 0.9;
+    transform: translate(var(--start-x, 0), var(--start-y, 0)) rotate(var(--start-rot, 0deg)) scale(1);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(calc(var(--start-rot, 0deg) + 180deg)) scale(0.3);
+  }
+}
+
+.animate-card-fragment-drift {
+  animation: card-fragment-drift var(--drift-duration, 6s) ease-in infinite;
+  animation-delay: var(--drift-delay, 0s);
+}
+
+/* Glowing rune flicker effect */
+@keyframes rune-flicker {
+  0%, 100% {
+    opacity: 1;
+    text-shadow:
+      0 0 20px rgba(168, 85, 247, 0.9),
+      0 0 40px rgba(168, 85, 247, 0.7),
+      0 0 60px rgba(107, 33, 168, 0.5),
+      0 0 80px rgba(107, 33, 168, 0.3);
+  }
+  50% {
+    opacity: 0.85;
+    text-shadow:
+      0 0 30px rgba(168, 85, 247, 1),
+      0 0 50px rgba(168, 85, 247, 0.8),
+      0 0 70px rgba(107, 33, 168, 0.6),
+      0 0 100px rgba(107, 33, 168, 0.4);
+  }
+}
+
+.animate-rune-flicker {
+  animation: rune-flicker 2s ease-in-out infinite;
+}
+
+/* Void wisp particles floating toward center */
+@keyframes void-wisp-float {
+  0% {
+    opacity: 0;
+    transform: translate(var(--wisp-x, 0px), var(--wisp-y, 0px)) scale(1);
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.1);
+  }
+}
+
+.animate-void-wisp {
+  animation: void-wisp-float var(--wisp-duration, 4s) ease-in infinite;
+  animation-delay: var(--wisp-delay, 0s);
+}
+
+/* Portal pulse effect */
+@keyframes portal-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.animate-portal-pulse {
+  animation: portal-pulse 3s ease-in-out infinite;
+}
+
+/* Void energy crackling */
+@keyframes void-crackle {
+  0%, 100% {
+    opacity: 0.4;
+    filter: blur(2px);
+  }
+  25% {
+    opacity: 0.7;
+    filter: blur(1px);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(3px);
+  }
+  75% {
+    opacity: 0.8;
+    filter: blur(0px);
+  }
+}
+
+.animate-void-crackle {
+  animation: void-crackle 1.5s ease-in-out infinite;
+}
+
+/* Void portal gradient backgrounds */
+.void-portal-gradient {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(17, 0, 28, 1) 0%,
+    rgba(107, 33, 168, 0.4) 30%,
+    rgba(168, 85, 247, 0.2) 50%,
+    rgba(107, 33, 168, 0.1) 70%,
+    transparent 100%
+  );
+}
+
+.void-portal-ring {
+  background: conic-gradient(
+    from 0deg,
+    rgba(168, 85, 247, 0.8),
+    rgba(107, 33, 168, 0.4),
+    rgba(139, 92, 246, 0.6),
+    rgba(88, 28, 135, 0.3),
+    rgba(168, 85, 247, 0.8)
+  );
+}
+
+/* Rune 404 text styling */
+.void-rune-text {
+  color: #a855f7;
+  text-shadow:
+    0 0 20px rgba(168, 85, 247, 0.9),
+    0 0 40px rgba(168, 85, 247, 0.7),
+    0 0 60px rgba(107, 33, 168, 0.5),
+    0 0 80px rgba(107, 33, 168, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================
+   ATTACK-READY ELECTRIC PULSE EFFECT
+   ============================================ */
+
+@keyframes electric-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 4px 1px rgba(34, 197, 94, 0.6),
+      0 0 8px 2px rgba(34, 197, 94, 0.3);
+    filter: brightness(1.1);
+  }
+  50% {
+    box-shadow:
+      0 0 6px 2px rgba(34, 197, 94, 0.8),
+      0 0 10px 3px rgba(34, 197, 94, 0.4),
+      inset 0 0 4px rgba(34, 197, 94, 0.15);
+    filter: brightness(1.15);
+  }
+}
+
+.animate-electric-pulse {
+  animation: electric-pulse 0.8s ease-in-out infinite;
+  border-color: rgb(34, 197, 94) !important;
 }

@@ -1,0 +1,40 @@
+{
+  "id": 43,
+  "handle": "hakuart",
+  "cardType": "MINION",
+  "name": "Haku, Filterless",
+  "imagePrompt": "A non-binary punk-goth artist, confidently posed amidst a swirling vortex of vibrant, chaotic digital art. They have a rebellious smirk and are holding a glowing digital stylus. The background subtly features Web3 symbols and a 'Lens' logo. They are clearly owning their space.",
+  "manaCost": 5,
+  "attack": 5,
+  "health": 6,
+  "keywords": [
+    "Battlecry",
+    "Rush"
+  ],
+  "abilityText": "Battlecry: Summon a 2/2 'Authentic Echo' with Taunt. Rush. 'I took off the filter. This is me. Deal with it.'",
+  "flavorText": "For years I dimmed myself, but not anymore. This is amazing. Let's gooooo! No filter. No regrets. Only chaos.",
+  "rarity": "LEGENDARY",
+  "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+  "profileName": "Haku",
+  "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+  "generatedImageUrl": "/images/cards/43.webp",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T13:21:23.388Z",
+  "updatedAt": "2026-01-28T11:23:40.108Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "SUMMON",
+        "target": "NONE",
+        "value": 1,
+        "summonCount": 1,
+        "summonAttack": 2,
+        "summonHealth": 2,
+        "summonKeywords": [
+          "Taunt"
+        ]
+      }
+    ]
+  }
+}

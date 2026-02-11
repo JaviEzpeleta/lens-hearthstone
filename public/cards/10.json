@@ -1,0 +1,28 @@
+{
+  "id": 59,
+  "handle": "kipto",
+  "cardType": "WEAPON",
+  "name": "The v0.69 Hotfix Blade",
+  "imagePrompt": "A sleek, futuristic digital sword made of scrolling text, displaying an endless list of bug fixes and new features, with a glowing Lens symbol on the hilt. Style: High-tech, clean, dynamic.",
+  "manaCost": 3,
+  "attack": 3,
+  "durability": 2,
+  "keywords": [],
+  "abilityText": "After your hero attacks, draw a card. 'Fixes coming soon.' They've been saying that since mainnet.",
+  "flavorText": "Patch notes: Fixed issue where sword worked correctly. Now it works incorrectly but faster.",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "DRAW",
+    "value": 1,
+    "target": "NONE",
+    "description": "After your hero attacks, draw a card."
+  },
+  "generatedImageUrl": "/images/cards/59.webp",
+  "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+  "profileName": "Kimmo",
+  "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:13:59.033Z",
+  "updatedAt": "2026-01-27T16:29:47.358Z"
+}

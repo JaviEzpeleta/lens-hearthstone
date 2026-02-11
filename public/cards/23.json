@@ -1,0 +1,33 @@
+{
+  "id": 46,
+  "handle": "xyori",
+  "cardType": "MINION",
+  "name": "Xyori, Grind Lord",
+  "imagePrompt": "A determined digital chronicler, Xyori, hunched over a glowing keyboard in a dimly lit, dark mode room. A coffee cup sits beside them, and a smartphone displays a meme. Emojis float around them.",
+  "manaCost": 2,
+  "attack": 2,
+  "health": 3,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: Refresh 1 Mana Crystal. 'Sleep is for the weak. Coffee is for the strong. Memes are forever.'",
+  "flavorText": "My bio isn't just a label, mate. It's a commitment to the grind. Still working. Still posting. Still awake at 4am.",
+  "rarity": "RARE",
+  "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+  "profileName": "Xyori",
+  "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+  "generatedImageUrl": "/images/cards/46.webp",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:28:13.865Z",
+  "updatedAt": "2026-01-28T11:19:59.621Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "REFRESH_MANA",
+        "target": "NONE",
+        "value": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": 67,
+  "handle": "artem",
+  "cardType": "MINION",
+  "name": "Artem, Wen Dark Mode",
+  "imagePrompt": "A confident, slightly exasperated designer meticulously drawing blueprints for a glowing 'Orb' logo, surrounded by tiny, confused-looking digital avatars asking 'wen dark mode?'",
+  "manaCost": 4,
+  "attack": 4,
+  "health": 6,
+  "keywords": [
+    "Battlecry",
+    "Taunt"
+  ],
+  "abilityText": "Battlecry: Give all friendly minions +2/+2. Taunt. 'Dark mode is coming. Soon. Very soon. Stop asking.'",
+  "flavorText": "Has answered 'wen dark mode?' exactly 47,291 times. Each answer was 'soon.' It's been two years.",
+  "rarity": "LEGENDARY",
+  "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+  "profileName": "Artem Militonian",
+  "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+  "generatedImageUrl": "/images/cards/67.webp",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T14:17:59.107Z",
+  "updatedAt": "2026-01-28T11:16:31.006Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "BUFF",
+        "target": "ALL_FRIENDLY_MINIONS",
+        "value": 2,
+        "secondaryValue": 2
+      }
+    ]
+  }
+}

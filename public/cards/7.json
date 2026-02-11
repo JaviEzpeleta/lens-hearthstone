@@ -1,0 +1,29 @@
+{
+  "id": 62,
+  "handle": "karoglazer",
+  "cardType": "WEAPON",
+  "name": "The Hype Mic",
+  "imagePrompt": "A futuristic, sleek microphone with a glowing symbol, emitting sound waves that look like digital speech bubbles and music notes, held by an unseen hand.",
+  "manaCost": 3,
+  "attack": 3,
+  "durability": 3,
+  "keywords": [],
+  "abilityText": "After your hero attacks, give a random friendly minion +1/+1. 'IS THIS THING ON? CAN YOU HEAR ME IN THE BACK?'",
+  "flavorText": "Not for background noise. This bad boy cuts through algorithms and reminds everyone music was meant to be felt, not optimized.",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "BUFF",
+    "value": 1,
+    "secondaryValue": 1,
+    "target": "RANDOM_FRIENDLY_MINION",
+    "description": "After your hero attacks, give a random friendly minion +1/+1."
+  },
+  "generatedImageUrl": "/images/cards/73.webp",
+  "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+  "profileName": "KARO GLAZER",
+  "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+  "profileScore": 8476,
+  "createdAt": "2026-01-27T14:16:10.672Z",
+  "updatedAt": "2026-01-27T16:23:25.947Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 42,
+  "handle": "dankshard",
+  "cardType": "SPELL",
+  "name": "Wall of Text",
+  "imagePrompt": "A screen overflowing with dense text and analytical charts, so much so that some words are spilling out onto the surrounding environment like digital rivers, a single exasperated emoji peeking from the corner.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Draw 2 cards. TL;DR.",
+  "flavorText": "Sometimes, you just need to lay out all your thoughts. TL;DR: I have no idea either but here's 47 paragraphs.",
+  "rarity": "EPIC",
+  "generatedImageUrl": "/images/cards/74.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "NONE",
+    "effectType": "DRAW",
+    "description": "Draw 2 cards. 'What the heck' are we building here?"
+  },
+  "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+  "profileName": "dankshard",
+  "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:07:47.117Z",
+  "updatedAt": "2026-01-27T13:12:17.504Z"
+}

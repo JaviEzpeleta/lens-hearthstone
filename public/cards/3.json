@@ -1,0 +1,25 @@
+{
+  "id": 66,
+  "handle": "orbbro",
+  "cardType": "SPELL",
+  "name": "The Bag Securer",
+  "imagePrompt": "A glowing digital scroll unfurling, revealing a collage of Web3 symbols, crypto charts, and anime characters, all being 'collected' into a glowing satchel with a symbol. The scene is vibrant and futuristic.",
+  "manaCost": 3,
+  "keywords": [],
+  "abilityText": "Draw 2 cards. 'Alpha leaked. Don't tell anyone.'",
+  "flavorText": "Knows the roadmap. Knows the team. Knows the tokenomics. Still gonna ape in at the literal top.",
+  "rarity": "EPIC",
+  "generatedImageUrl": "/images/cards/66.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "NONE",
+    "effectType": "DRAW",
+    "description": "\"Collected! This is so cool!\" Draw 2 cards. If you control a minion with 5 or more Attack, draw an additional card."
+  },
+  "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+  "profileName": "Donsambaba",
+  "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:17:01.768Z",
+  "updatedAt": "2026-01-27T16:38:04.163Z"
+}

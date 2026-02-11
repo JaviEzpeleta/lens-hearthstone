@@ -1,0 +1,24 @@
+{
+  "id": 69,
+  "handle": "artem",
+  "cardType": "SPELL",
+  "name": "AntiDarkMode Spell",
+  "imagePrompt": "A vibrant burst of notifications and glowing digital badges appearing around a central Orb logo, as small, excited user avatars rush towards them with open arms.",
+  "manaCost": 1,
+  "keywords": [],
+  "abilityText": "Refresh 2 Mana Crystals.",
+  "flavorText": "Studies show 99% of dark mode users will read this card and immediately enable it anyway.",
+  "rarity": "EPIC",
+  "generatedImageUrl": "/images/cards/69.webp",
+  "spellEffect": {
+    "effectType": "REFRESH_MANA",
+    "target": "NONE",
+    "value": 2
+  },
+  "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+  "profileName": "Artem Militonian",
+  "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T14:17:59.231Z",
+  "updatedAt": "2026-01-28T11:12:01.363Z"
+}

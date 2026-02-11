@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/partykit/partykit/main/packages/partykit/schema.json",
+  "name": "lens-hearthstone",
+  "main": "party/game.ts",
+  "parties": {
+    "lobby": "party/lobby.ts"
+  },
+  "compatibilityDate": "2024-01-01",
+  "vars": {
+    "APP_URL": "http://localhost:3000"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": 48,
+  "handle": "xyori",
+  "cardType": "SPELL",
+  "name": "FuckYou",
+  "imagePrompt": "A digital storm cloud unleashing a powerful lightning bolt shaped like a middle finger. Surrounding the bolt are swirling emoji reactions like 😂😂😂, 🥁🥁🥁, and 💯💯💯.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Deal 5 damage to a random enemy. 'Congrats mate!'",
+  "flavorText": "Sometimes you just gotta predict the market with a little direct feedback, mate.",
+  "rarity": "RARE",
+  "generatedImageUrl": "/images/cards/48.webp",
+  "spellEffect": {
+    "value": 5,
+    "target": "RANDOM_ENEMY_CHARACTER",
+    "effectType": "DAMAGE",
+    "description": "Deal 5 damage to a random enemy character. If it's the enemy hero, they must say 'Fuck you' back. If it's a minion, gain 2 Attention. 😂😂😂"
+  },
+  "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+  "profileName": "Xyori",
+  "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:28:13.994Z",
+  "updatedAt": "2026-01-27T16:40:41.639Z"
+}

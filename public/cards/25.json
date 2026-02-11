@@ -1,0 +1,30 @@
+{
+  "id": 44,
+  "handle": "hakuart",
+  "cardType": "WEAPON",
+  "name": "iPad Pencil of Destruction",
+  "imagePrompt": "A sleek, digitally enhanced blade or stylus, with subtle gothic and punk accents. It glows with a network of digital patterns, looking sharp and impactful. There's a hint of a 'bag of a killer' aesthetic.",
+  "manaCost": 3,
+  "attack": 3,
+  "durability": 3,
+  "keywords": [
+    "Lifesteal"
+  ],
+  "abilityText": "Your attacks deal 2 extra damage. 'Just go away.'",
+  "flavorText": "It's not my fault if you're weak. And I don't mean physically.",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "DAMAGE",
+    "value": 2,
+    "target": "ATTACKED_TARGET",
+    "description": "After your hero attacks, deal 2 extra damage to the target."
+  },
+  "generatedImageUrl": "/images/cards/44.webp",
+  "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+  "profileName": "Haku",
+  "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T13:21:23.472Z",
+  "updatedAt": "2026-01-28T11:21:55.088Z"
+}

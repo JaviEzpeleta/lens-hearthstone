@@ -1,0 +1,30 @@
+{
+  "id": 68,
+  "handle": "artem",
+  "cardType": "WEAPON",
+  "name": "Prediction Stick",
+  "imagePrompt": "A sleek, futuristic paddle with glowing Orb logos, used for hitting a digital 'Yes' or 'No' button on a screen, with a playful glint.",
+  "manaCost": 3,
+  "attack": 3,
+  "durability": 2,
+  "keywords": [
+    "Lifesteal"
+  ],
+  "abilityText": "After your hero attacks, restore 2 Health. 'I predicted all of this.'",
+  "flavorText": "Right 50% of the time, every time. The other 50%? Market manipulation, obviously.",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "HEAL",
+    "value": 2,
+    "target": "NONE",
+    "description": "After your hero attacks, restore 2 Health."
+  },
+  "generatedImageUrl": "/images/cards/68.webp",
+  "profileAddress": "0xCe812129DFc3177EA523f6A2721bb96877E68031",
+  "profileName": "Artem Militonian",
+  "profilePicture": "https://ik.imagekit.io/lens/8eff836d13aebde68091bd14308fb0a30ed1c72bbd0580b4221e1cba5ad92878_fGuuHSH_4.webp",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T14:17:59.170Z",
+  "updatedAt": "2026-01-28T11:16:01.334Z"
+}

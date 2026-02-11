@@ -1,0 +1,41 @@
+{
+  "id": 52,
+  "handle": "sttsm",
+  "cardType": "MINION",
+  "name": "STTSM, Beat Dropper",
+  "imagePrompt": "A charismatic musician with a friendly smile, surrounded by glowing musical notes and small, enthusiastic crowd members. He's holding a microphone and a synth, with 'Gm fam!' text bubbles around him.",
+  "manaCost": 4,
+  "attack": 3,
+  "health": 5,
+  "keywords": [
+    "Battlecry",
+    "Lifesteal"
+  ],
+  "abilityText": "Battlecry: Give a random friendly minion +2 Attack. Give all others +1 Health. 'The beat dropped. So did your jaw.'",
+  "flavorText": "Always starting the day with good vibes and a new beat. His sound check is everyone else's concert.",
+  "rarity": "EPIC",
+  "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+  "profileName": "STTSM",
+  "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+  "generatedImageUrl": "/images/cards/52.webp",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T14:12:07.331Z",
+  "updatedAt": "2026-01-28T11:25:00.922Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "BUFF",
+        "target": "RANDOM_FRIENDLY_MINION",
+        "value": 2,
+        "secondaryValue": 0
+      },
+      {
+        "effectType": "BUFF",
+        "target": "ALL_OTHER_FRIENDLY_MINIONS",
+        "value": 0,
+        "secondaryValue": 1
+      }
+    ]
+  }
+}

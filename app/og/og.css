@@ -1,0 +1,194 @@
+/* ============================================
+   OG IMAGE SPECIFIC STYLES
+   1200x630px static design for social previews
+   ============================================ */
+
+/* Container sizing */
+.og-container {
+  width: 1200px;
+  height: 630px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Parchment/wood texture overlay */
+.og-texture-overlay {
+  background-image:
+    radial-gradient(ellipse at 30% 20%, rgba(201, 160, 51, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(201, 160, 51, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+/* Golden title glow effect */
+.og-title-glow {
+  text-shadow:
+    0 0 10px rgba(232, 200, 74, 0.8),
+    0 0 20px rgba(201, 160, 51, 0.6),
+    0 0 30px rgba(201, 160, 51, 0.4),
+    0 0 40px rgba(139, 105, 20, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Card container styling */
+.og-card {
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.6));
+}
+
+/* Rarity border glows */
+.og-card-legendary {
+  box-shadow:
+    0 0 15px rgba(249, 115, 22, 0.7),
+    0 0 30px rgba(249, 115, 22, 0.4),
+    inset 0 0 20px rgba(249, 115, 22, 0.1);
+  border: 3px solid #f97316;
+}
+
+.og-card-epic {
+  box-shadow:
+    0 0 15px rgba(168, 85, 247, 0.7),
+    0 0 30px rgba(168, 85, 247, 0.4),
+    inset 0 0 20px rgba(168, 85, 247, 0.1);
+  border: 3px solid #a855f7;
+}
+
+.og-card-rare {
+  box-shadow:
+    0 0 15px rgba(66, 153, 225, 0.7),
+    0 0 30px rgba(66, 153, 225, 0.4),
+    inset 0 0 20px rgba(66, 153, 225, 0.1);
+  border: 3px solid #4299e1;
+}
+
+.og-card-common {
+  box-shadow:
+    0 0 10px rgba(160, 160, 160, 0.5),
+    0 0 20px rgba(160, 160, 160, 0.3);
+  border: 3px solid #9ca3af;
+}
+
+/* Floating ember particles */
+@keyframes ember-float {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-200px) translateX(30px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.og-ember {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f97316 0%, #c9a033 50%, transparent 100%);
+  animation: ember-float 4s ease-in-out infinite;
+}
+
+.og-ember:nth-child(1) { left: 10%; bottom: 20%; animation-delay: 0s; }
+.og-ember:nth-child(2) { left: 25%; bottom: 15%; animation-delay: 0.5s; }
+.og-ember:nth-child(3) { left: 40%; bottom: 25%; animation-delay: 1s; }
+.og-ember:nth-child(4) { left: 55%; bottom: 10%; animation-delay: 1.5s; }
+.og-ember:nth-child(5) { left: 70%; bottom: 20%; animation-delay: 2s; }
+.og-ember:nth-child(6) { left: 85%; bottom: 15%; animation-delay: 2.5s; }
+.og-ember:nth-child(7) { left: 15%; bottom: 30%; animation-delay: 0.3s; }
+.og-ember:nth-child(8) { left: 60%; bottom: 30%; animation-delay: 1.8s; }
+
+/* Sparkle particles */
+@keyframes sparkle-twinkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.og-sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #e8c84a;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #e8c84a, 0 0 12px #c9a033;
+  animation: sparkle-twinkle 2s ease-in-out infinite;
+}
+
+.og-sparkle:nth-child(1) { top: 15%; left: 8%; animation-delay: 0s; }
+.og-sparkle:nth-child(2) { top: 25%; left: 92%; animation-delay: 0.4s; }
+.og-sparkle:nth-child(3) { top: 60%; left: 5%; animation-delay: 0.8s; }
+.og-sparkle:nth-child(4) { top: 70%; left: 95%; animation-delay: 1.2s; }
+.og-sparkle:nth-child(5) { top: 40%; left: 3%; animation-delay: 1.6s; }
+.og-sparkle:nth-child(6) { top: 50%; left: 97%; animation-delay: 0.2s; }
+
+/* Golden pulse animation for decorative border */
+@keyframes golden-pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.og-border-glow {
+  box-shadow:
+    inset 0 0 60px rgba(201, 160, 51, 0.15),
+    inset 0 0 120px rgba(201, 160, 51, 0.08);
+  animation: golden-pulse 3s ease-in-out infinite;
+}
+
+/* Ornamental flourish styling */
+.og-flourish {
+  color: #c9a033;
+  text-shadow: 0 0 10px rgba(201, 160, 51, 0.5);
+}
+
+/* URL badge styling */
+.og-url-badge {
+  background: linear-gradient(
+    135deg,
+    rgba(201, 160, 51, 0.2) 0%,
+    rgba(139, 105, 20, 0.3) 100%
+  );
+  border: 1px solid rgba(201, 160, 51, 0.4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Vignette overlay */
+.og-vignette {
+  background: radial-gradient(
+    ellipse at center,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+/* Card fan layout positions */
+.og-card-fan {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: -20px;
+}
+
+/* Individual card positions in fan */
+.og-card-pos-1 { transform: rotate(-12deg) translateY(15px); z-index: 1; }
+.og-card-pos-2 { transform: rotate(-6deg) translateY(5px); z-index: 2; }
+.og-card-pos-3 { transform: rotate(0deg) translateY(0); z-index: 3; }
+.og-card-pos-4 { transform: rotate(6deg) translateY(5px); z-index: 2; }
+.og-card-pos-5 { transform: rotate(12deg) translateY(15px); z-index: 1; }

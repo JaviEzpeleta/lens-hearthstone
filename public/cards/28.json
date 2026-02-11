@@ -1,0 +1,32 @@
+{
+  "id": 41,
+  "handle": "dankshard",
+  "cardType": "WEAPON",
+  "name": "Bullish Chart",
+  "imagePrompt": "A glowing, holographic chart tablet that pulsates with green lines and 'bullish' arrows, with a stylized 'DANK' logo. It looks like a high-tech data analysis tool, wielded with expertise.",
+  "manaCost": 3,
+  "attack": 3,
+  "durability": 3,
+  "keywords": [
+    "Rush",
+    "Battlecry"
+  ],
+  "abilityText": "After your hero attacks, gain +1 Attack. 'Solid.'",
+  "flavorText": "Some say he sees the future. Others say he just scrolls CT. His calls are... solid.",
+  "rarity": "LEGENDARY",
+  "weaponEffect": {
+    "trigger": "BATTLECRY",
+    "effectType": "BUFF",
+    "value": 1,
+    "secondaryValue": 0,
+    "target": "NONE",
+    "description": "Battlecry: This weapon gains +1 Attack."
+  },
+  "generatedImageUrl": "/images/cards/72.webp",
+  "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+  "profileName": "dankshard",
+  "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:07:47.053Z",
+  "updatedAt": "2026-01-27T13:18:24.110Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 61,
+  "handle": "karoglazer",
+  "cardType": "MINION",
+  "name": "Lady Banger",
+  "imagePrompt": "A dynamic female artist with a microphone, surrounded by swirling musical notes and digital energy, a subtle sparkle in the background, in a vibrant, slightly futuristic concert setting.",
+  "manaCost": 5,
+  "attack": 4,
+  "health": 6,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: Summon two 1/1 'Backup Dancers'. Just vibe.",
+  "flavorText": "No algorithms whispering what she should feel, just pure, unadulterated sound. Also, certified banger. Every. Single. Time.",
+  "rarity": "COMMON",
+  "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+  "profileName": "KARO GLAZER",
+  "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+  "generatedImageUrl": "/images/cards/61.webp",
+  "profileScore": 8476,
+  "createdAt": "2026-01-27T14:16:10.606Z",
+  "updatedAt": "2026-01-27T16:23:42.610Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "SUMMON",
+        "target": "NONE",
+        "value": 2,
+        "summonCount": 2,
+        "summonAttack": 1,
+        "summonHealth": 1
+      }
+    ]
+  }
+}

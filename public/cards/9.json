@@ -1,0 +1,26 @@
+{
+  "id": 60,
+  "handle": "kipto",
+  "cardType": "SPELL",
+  "name": "Fire Bullish",
+  "imagePrompt": "A powerful wave of glowing, interconnected nodes and data streams, washing over the board, empowering genuine users and disrupting centralized entities. Style: Abstract, energetic, bright digital art.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Give all friendly minions +2/+2. 'WE'RE SO BACK.'",
+  "flavorText": "Up 3%: 'GENERATIONAL WEALTH INCOMING.' Down 3%: 'This is fine. Everything is fine. I'm fine.'",
+  "rarity": "LEGENDARY",
+  "generatedImageUrl": "/images/cards/60.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "ALL_FRIENDLY_MINIONS",
+    "effectType": "BUFF",
+    "description": "\"This 100!\" Give all friendly minions +2/+2. \"We're **bullish on** users like u ser!\"",
+    "secondaryValue": 2
+  },
+  "profileAddress": "0xEB1F379c1aCeeCDd3A52CcbE856a7872475b31cB",
+  "profileName": "Kimmo",
+  "profilePicture": "https://media.orbapi.xyz/thumbnailDimension768/https://ik.imagekit.io/lens/784d6126818597fc968bfd149684b811dfda4c759da4090b888696637ed5d039_E0TknnElc.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:13:59.095Z",
+  "updatedAt": "2026-01-27T16:27:07.766Z"
+}

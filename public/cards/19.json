@@ -1,0 +1,30 @@
+{
+  "id": 50,
+  "handle": "kaycee1000",
+  "cardType": "WEAPON",
+  "name": "The Bug Squasher",
+  "imagePrompt": "A stylized, glowing fork tool, with tiny bug icons impaled on its tines, and positive emojis floating around it, set in a Web3 aesthetic.",
+  "manaCost": 4,
+  "attack": 2,
+  "durability": 3,
+  "keywords": [
+    "Lifesteal"
+  ],
+  "abilityText": "Lifesteal. After your hero attacks, draw a card. 'Bug report filed. Status: Won't Fix. Reason: Feature.'",
+  "flavorText": "Whether it's a glowing review or a pointed bug report, Kaycee's got an opinion. And screenshots. Always screenshots.",
+  "rarity": "COMMON",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "DRAW",
+    "value": 1,
+    "target": "NONE",
+    "description": "After your hero attacks, draw a card."
+  },
+  "generatedImageUrl": "/images/cards/50.webp",
+  "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+  "profileName": "Kaycee",
+  "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+  "profileScore": 7323,
+  "createdAt": "2026-01-27T14:10:33.446Z",
+  "updatedAt": "2026-01-27T16:48:42.182Z"
+}

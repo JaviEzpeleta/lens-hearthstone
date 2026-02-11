@@ -1,0 +1,29 @@
+{
+  "id": 65,
+  "handle": "orbbro",
+  "cardType": "WEAPON",
+  "name": "Bot Blocker",
+  "imagePrompt": "A sleek, futuristic digital hammer with a glowing '🛍️' symbol, striking down shadowy, glitching bot figures made of code and spam. A 'BLOCK' icon appears.",
+  "manaCost": 4,
+  "attack": 3,
+  "durability": 3,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: \"Bagged 🛍️ all these bots!\" Destroy an enemy minion with 2 or less Attack.",
+  "flavorText": "He's 'up and active and ready to block all the annoying bots'. Zero tolerance for shamers, bruh.",
+  "rarity": "COMMON",
+  "weaponEffect": {
+    "trigger": "BATTLECRY",
+    "effectType": "DESTROY",
+    "target": "ENEMY_MINION",
+    "description": "Destroy an enemy minion with 2 or less Attack."
+  },
+  "generatedImageUrl": "/images/cards/65.webp",
+  "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+  "profileName": "Donsambaba",
+  "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:17:01.702Z",
+  "updatedAt": "2026-01-28T11:20:19.957Z"
+}

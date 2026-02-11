@@ -1,0 +1,34 @@
+{
+  "id": 55,
+  "handle": "todayistheday",
+  "cardType": "MINION",
+  "name": "Jean Ayala",
+  "imagePrompt": "A charismatic digital avatar of Jean Ayala, wearing an 'orb.club' branded hoodie and a small, slightly askew crown, standing confidently amidst a flurry of Lens Protocol logos and positive emoji reactions.",
+  "manaCost": 4,
+  "attack": 4,
+  "health": 5,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: \"Bullish on you!\" Give a random friendly minion +2/+2.",
+  "flavorText": "He might be building a new game or having a legal battle, but he's always bullish.",
+  "rarity": "COMMON",
+  "profileAddress": "0xe47024beC28991c7F47C4f13076698Ab50b3b0DC",
+  "profileName": "Jean Ayala (🟡,🟡)",
+  "profilePicture": "https://ik.imagekit.io/lens/f785500ef2d7ad0edd01f1e83f9bf288a46037e0154f4a426aba64c0ca603269_JGo8gpJQn.webp",
+  "generatedImageUrl": "/images/cards/55.webp",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T14:13:09.311Z",
+  "updatedAt": "2026-01-27T16:34:44.099Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "BUFF",
+        "target": "RANDOM_FRIENDLY_MINION",
+        "value": 2,
+        "secondaryValue": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": 64,
+  "handle": "orbbro",
+  "cardType": "MINION",
+  "name": "Orbbro says GM",
+  "imagePrompt": "A friendly, energetic figure with a smartphone, radiating positive morning vibes and various 'Gm' speech bubbles around them, set in a bustling digital city.",
+  "manaCost": 4,
+  "attack": 4,
+  "health": 5,
+  "keywords": [
+    "Battlecry",
+    "Taunt"
+  ],
+  "abilityText": "Battlecry: Give all other friendly minions +1/+1. Taunt. 'gm gm gm'",
+  "flavorText": "Has never missed a single gm. Legend says if they ever stop, the blockchain halts forever.",
+  "rarity": "EPIC",
+  "generatedImageUrl": "/images/cards/64.webp",
+  "profileAddress": "0x74818796d09ACE4f83672bf78839e06C7Dd175CB",
+  "profileName": "Donsambaba",
+  "profilePicture": "https://ik.imagekit.io/lens/4b8971c670a9f06d3dbab68e0ff3cefe71bfd88c9d466f87dc1350d7444629e5_3h2esUoBH.webp",
+  "profileScore": 9998,
+  "createdAt": "2026-01-27T14:17:01.640Z",
+  "updatedAt": "2026-01-27T16:15:09.979Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "BUFF",
+        "target": "ALL_OTHER_FRIENDLY_MINIONS",
+        "value": 1,
+        "secondaryValue": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 51,
+  "handle": "kaycee1000",
+  "cardType": "SPELL",
+  "name": "Bullish Blessing",
+  "imagePrompt": "A vibrant, energetic burst of light and positive blockchain symbols, with the Lens Protocol logo prominently featured, boosting a character.",
+  "manaCost": 2,
+  "keywords": [],
+  "abilityText": "Give a friendly minion +2/+2. 'I am bullish on you Guys. Let's make Lens Greater!'",
+  "flavorText": "Kaycee's enthusiasm isn't just talk; it's a powerful force. Bullish!",
+  "rarity": "COMMON",
+  "generatedImageUrl": "/images/cards/71.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "FRIENDLY_MINION",
+    "effectType": "BUFF",
+    "description": "Give a friendly minion +2/+2. 'I am bullish on you Guys. Let's make Lens Greater!'",
+    "secondaryValue": 2
+  },
+  "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+  "profileName": "Kaycee",
+  "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+  "profileScore": 7323,
+  "createdAt": "2026-01-27T14:10:33.506Z",
+  "updatedAt": "2026-01-27T16:49:02.191Z"
+}

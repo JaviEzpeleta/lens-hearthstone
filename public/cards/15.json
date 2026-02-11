@@ -1,0 +1,26 @@
+{
+  "id": 54,
+  "handle": "sttsm",
+  "cardType": "SPELL",
+  "name": "LFG of Optimism",
+  "imagePrompt": "A burst of positive energy and light, with a diverse group of Web3 avatars (small minions) cheering and growing stronger, surrounded by 'LFG!!!!!', fire emojis, and 'thank you' text bubbles.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Give all friendly minions +2/+2. LFG!",
+  "flavorText": "We're not bagholding, we're community building. There's a difference. (There isn't.)",
+  "rarity": "LEGENDARY",
+  "generatedImageUrl": "/images/cards/75.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "ALL_FRIENDLY_MINIONS",
+    "effectType": "BUFF",
+    "description": "Give all your other friendly minions +2/+2. Yell 'LFG!!!!!' for good measure.",
+    "secondaryValue": 2
+  },
+  "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+  "profileName": "STTSM",
+  "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T14:12:07.465Z",
+  "updatedAt": "2026-01-27T16:49:54.814Z"
+}

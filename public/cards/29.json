@@ -1,0 +1,34 @@
+{
+  "id": 40,
+  "handle": "dankshard",
+  "cardType": "MINION",
+  "name": "Dankshard, Galaxy Brain",
+  "imagePrompt": "A wise, slightly tired-looking analyst in a futuristic trading room, surrounded by holographic charts and social media feeds, wearing a t-shirt that says '$DANK Crypto Cabal'. He has a focused expression, maybe with a coffee cup nearby.",
+  "manaCost": 4,
+  "attack": 5,
+  "health": 7,
+  "keywords": [
+    "Battlecry",
+    "Divine Shield"
+  ],
+  "abilityText": "Battlecry: Draw a card. Divine Shield. 'Yeah, it's still not obvious for me either, but we're up 3000% so who cares.'",
+  "flavorText": "gm, chroniclers! The market is dead but not for those who stay green. This would be INSANE. (It was not insane.)",
+  "rarity": "RARE",
+  "generatedImageUrl": "/images/cards/40.webp",
+  "profileAddress": "0x9fAFA610D40c35fA68260D75eF1B805D1c2E0229",
+  "profileName": "dankshard",
+  "profilePicture": "https://ik.imagekit.io/lens/b710529741e08d41adaa7c7e86eb0488d74477dee0516fe765f38efb870447c6_lev9589O0.jpeg",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:07:46.980Z",
+  "updatedAt": "2026-01-28T11:22:45.593Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "DRAW",
+        "target": "NONE",
+        "value": 1
+      }
+    ]
+  }
+}

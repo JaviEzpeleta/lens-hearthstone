@@ -1,0 +1,29 @@
+{
+  "id": 53,
+  "handle": "sttsm",
+  "cardType": "WEAPON",
+  "name": "Synesthetic Synth",
+  "imagePrompt": "A sleek, futuristic synthesizer console with glowing pads and intricate wiring. Musical notes and colorful light patterns are emanating from it, suggesting synesthesia. A 'Sound on' icon is subtly integrated.",
+  "manaCost": 3,
+  "attack": 2,
+  "durability": 3,
+  "keywords": [],
+  "abilityText": "After your hero attacks, say 'Sound on! 🎵' and give a random friendly minion +1 Attack. Collected!",
+  "flavorText": "Sometimes the sound is straight from the camera",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "BUFF",
+    "value": 1,
+    "secondaryValue": 0,
+    "target": "RANDOM_FRIENDLY_MINION",
+    "description": "After your hero attacks, give a random friendly minion +1 Attack."
+  },
+  "generatedImageUrl": "/images/cards/53.webp",
+  "profileAddress": "0x8D52471914c971Ebc9B94EDcF66Dc41Cf72430cB",
+  "profileName": "STTSM",
+  "profilePicture": "https://ik.imagekit.io/lens/11f7f31a6f3aaa89b2a2518dff22905f2b4729a8afd6c3cb18292668d996443a_PqovVmTrc.jpeg",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T14:12:07.403Z",
+  "updatedAt": "2026-01-27T16:49:31.935Z"
+}

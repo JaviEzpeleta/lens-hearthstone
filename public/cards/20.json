@@ -1,0 +1,34 @@
+{
+  "id": 49,
+  "handle": "kaycee1000",
+  "cardType": "MINION",
+  "name": "Kaycee, Chart Enjoyer",
+  "imagePrompt": "A friendly, energetic character with a smartphone, radiating positive vibes, with 'GM World' speech bubbles and Lens Protocol logos around them.",
+  "manaCost": 2,
+  "attack": 2,
+  "health": 2,
+  "keywords": [
+    "Battlecry"
+  ],
+  "abilityText": "Battlecry: Give another friendly minion +1 Attack. 'Trust me bro, the symmetrical triangle is forming.'",
+  "flavorText": "Portfolio: down 80%. Conviction: up 200%. This is the way. The charts never lie. (They always lie.)",
+  "rarity": "COMMON",
+  "profileAddress": "0xF2d95f66502cFf20294c5A98F764D255A0f0aafF",
+  "profileName": "Kaycee",
+  "profilePicture": "https://ik.imagekit.io/lens/74b4f14979d1a02be27f5ba2a7cefeb857988d1668779e34b7bd3dd7495c837d_XFbfGPPX_.jpeg",
+  "generatedImageUrl": "/images/cards/49.webp",
+  "profileScore": 7323,
+  "createdAt": "2026-01-27T14:10:33.371Z",
+  "updatedAt": "2026-01-27T14:10:33.371Z",
+  "minionEffect": {
+    "trigger": "BATTLECRY",
+    "effects": [
+      {
+        "effectType": "BUFF",
+        "target": "FRIENDLY_MINION",
+        "value": 1,
+        "secondaryValue": 0
+      }
+    ]
+  }
+}

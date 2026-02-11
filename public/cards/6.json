@@ -1,0 +1,28 @@
+{
+  "id": 63,
+  "handle": "karoglazer",
+  "cardType": "SPELL",
+  "name": "Vocal Mural",
+  "imagePrompt": "A grand, ethereal vocal mural manifesting from swirling light and sound, forming an immersive landscape of music and community, with 'gm fam' and 'this is amazing' appearing as holographic text.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Summon two 2/2 'New OrbWarriors'. 'gm fam!'",
+  "flavorText": "A slow, analog rebellion against speed, optimization, and noise. 'This is amazing! I'm so happy!'",
+  "rarity": "RARE",
+  "generatedImageUrl": "/images/cards/63.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "NONE",
+    "effectType": "SUMMON",
+    "description": "Summon two 2/2 'New OrbWarriors'. They have Battlecry: 'gm fam!'",
+    "summonCount": 2,
+    "summonAttack": 2,
+    "summonHealth": 2
+  },
+  "profileAddress": "0xBbd9870b8128a355dc6200abB6C948002ae7049b",
+  "profileName": "KARO GLAZER",
+  "profilePicture": "https://ik.imagekit.io/lens/44bea6754398daaa619bfa50ff527d004dae2515caa5814feb945cad828cab17_qFrIk9vja6.jpeg",
+  "profileScore": 8476,
+  "createdAt": "2026-01-27T14:16:10.732Z",
+  "updatedAt": "2026-01-27T16:19:05.523Z"
+}

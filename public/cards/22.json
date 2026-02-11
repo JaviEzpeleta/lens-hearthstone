@@ -1,0 +1,30 @@
+{
+  "id": 47,
+  "handle": "xyori",
+  "cardType": "WEAPON",
+  "name": "Orbish Shield",
+  "imagePrompt": "A sleek, glowing digital sword with subtle 'Orb' branding, surrounded by a flurry of flying emojis and content bubbles, implying rapid interaction. Emphasize a modern, Web3 aesthetic.",
+  "manaCost": 2,
+  "attack": 3,
+  "durability": 2,
+  "keywords": [
+    "Windfury"
+  ],
+  "abilityText": "Windfury. After your hero attacks, draw a card. 'Thanks mate!'",
+  "flavorText": "Collect posts at lightning speed. Every swipe is a new piece of content. Yes pls. 🫡🫡🫡",
+  "rarity": "RARE",
+  "weaponEffect": {
+    "trigger": "AFTER_ATTACK",
+    "effectType": "DRAW",
+    "value": 1,
+    "target": "NONE",
+    "description": "After your hero attacks, draw a card."
+  },
+  "generatedImageUrl": "/images/cards/47.webp",
+  "profileAddress": "0x633Ecf099E1bb1C6ec04d8dC63Da74bAE7646CA9",
+  "profileName": "Xyori",
+  "profilePicture": "https://api.grove.storage/e185e0ba8175b2f6d3383a33dc5a57a49f7ee8e59f3d970057302632741462c3",
+  "profileScore": 9996,
+  "createdAt": "2026-01-27T13:28:13.930Z",
+  "updatedAt": "2026-01-27T13:36:08.542Z"
+}

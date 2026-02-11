@@ -1,0 +1,28 @@
+{
+  "id": 45,
+  "handle": "hakuart",
+  "cardType": "SPELL",
+  "name": "Art From Chaos",
+  "imagePrompt": "A swirling vortex of vibrant, digital art emerging from a stormy, noisy background. Emojis and Web3 symbols are subtly incorporated into the chaos, representing the transformation of 'noise' into 'culture'.",
+  "manaCost": 4,
+  "keywords": [],
+  "abilityText": "Summon two 2/2 'Chaos Culture' tokens. Art from the noise.",
+  "flavorText": "Some see chaos. Artists see a canvas. The algorithm sees engagement. Everyone's happy. Sort of.",
+  "rarity": "EPIC",
+  "generatedImageUrl": "/images/cards/45.webp",
+  "spellEffect": {
+    "value": 2,
+    "target": "NONE",
+    "effectType": "SUMMON",
+    "description": "Summon two 2/2 'Chaos Culture' tokens.",
+    "summonCount": 2,
+    "summonAttack": 2,
+    "summonHealth": 2
+  },
+  "profileAddress": "0x259208050e1a9042a6c942b521b7C01313928030",
+  "profileName": "Haku",
+  "profilePicture": "https://ik.imagekit.io/lens/825d5947d7ddd9b5928196e5b26dea5acb175d516df4481b2854e41854e1f5a7_sjmmmTKrU.jpeg",
+  "profileScore": 9997,
+  "createdAt": "2026-01-27T13:21:23.535Z",
+  "updatedAt": "2026-01-27T13:26:18.191Z"
+}
