@@ -11,6 +11,7 @@ import { useOrientationLock } from '@/hooks/useOrientationLock';
 import { ConnectKitButton } from 'connectkit';
 import { LoginOptions } from '@/components/LoginOptions';
 import { useLogout } from '@lens-protocol/react';
+import { useDisconnect } from 'wagmi';
 import {
   Swords,
   Users,
@@ -45,13 +46,16 @@ export default function MultiplayerPage() {
   const [showLoginModal, setShowLoginModal] = useState(false);
 
   const { execute: logout } = useLogout();
+  const { disconnect } = useDisconnect();
 
   // Lock orientation to portrait on mobile
   useOrientationLock();
 
   // Handle logout
   const handleLogout = async () => {
+    localStorage.clear();
     await logout();
+    disconnect();
     window.location.reload();
   };
 
